@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Swag Labs Website Test cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Swag Labs Website Test cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 03 19:06:31 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>96 seconds (96352 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.swag.qa.test.CheckoutOverviewPageTest.finishButtonTest()'><b>finishButtonTest</b><br>Test class: com.swag.qa.test.CheckoutOverviewPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1</td></tr>
+<tr>
+<td title='com.swag.qa.test.CartPageTest.continueShoppingButtonTest()'><b>continueShoppingButtonTest</b><br>Test class: com.swag.qa.test.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CartPageTest@1a482e36</td></tr>
+<tr>
+<td title='com.swag.qa.test.ProductPageTest.productPageHeaderTitleTest()'><b>productPageHeaderTitleTest</b><br>Test class: com.swag.qa.test.ProductPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.ProductPageTest@67c27493</td></tr>
+<tr>
+<td title='com.swag.qa.test.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.swag.qa.test.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.LoginPageTest@2a798d51</td></tr>
+<tr>
+<td title='com.swag.qa.test.ProductPageTest.RemoveButtonTest()'><b>RemoveButtonTest</b><br>Test class: com.swag.qa.test.ProductPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.ProductPageTest@67c27493</td></tr>
+<tr>
+<td title='com.swag.qa.test.ProductPageTest.addToCartButtonTest()'><b>addToCartButtonTest</b><br>Test class: com.swag.qa.test.ProductPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.ProductPageTest@67c27493</td></tr>
+<tr>
+<td title='com.swag.qa.test.CheckoutOverviewPageTest.checkoutOverviewTitleTest()'><b>checkoutOverviewTitleTest</b><br>Test class: com.swag.qa.test.CheckoutOverviewPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1</td></tr>
+<tr>
+<td title='com.swag.qa.test.CartPageTest.cartPageTitleTest()'><b>cartPageTitleTest</b><br>Test class: com.swag.qa.test.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CartPageTest@1a482e36</td></tr>
+<tr>
+<td title='com.swag.qa.test.CartPageTest.checkoutButtonTest()'><b>checkoutButtonTest</b><br>Test class: com.swag.qa.test.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CartPageTest@1a482e36</td></tr>
+<tr>
+<td title='com.swag.qa.test.CheckoutCompletePageTest.checkoutCompletePageTest()'><b>checkoutCompletePageTest</b><br>Test class: com.swag.qa.test.CheckoutCompletePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf</td></tr>
+<tr>
+<td title='com.swag.qa.test.CheckoutCompletePageTest.thankyouMessageTest()'><b>thankyouMessageTest</b><br>Test class: com.swag.qa.test.CheckoutCompletePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf</td></tr>
+<tr>
+<td title='com.swag.qa.test.ProductPageTest.ShoppingCartLinkTest()'><b>ShoppingCartLinkTest</b><br>Test class: com.swag.qa.test.ProductPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.ProductPageTest@67c27493</td></tr>
+<tr>
+<td title='com.swag.qa.test.CheckoutPageTest.inputInformationFieldsTest()'><b>inputInformationFieldsTest</b><br>Test class: com.swag.qa.test.CheckoutPageTest<br>Parameters: Standard, User, 546797.0</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CheckoutPageTest@72967906</td></tr>
+<tr>
+<td title='com.swag.qa.test.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.swag.qa.test.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.swag.qa.test.LoginPageTest@2a798d51</td></tr>
+<tr>
+<td title='com.swag.qa.test.CheckoutPageTest.checkoutPageTitleTest()'><b>checkoutPageTitleTest</b><br>Test class: com.swag.qa.test.CheckoutPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CheckoutPageTest@72967906</td></tr>
+<tr>
+<td title='com.swag.qa.test.CheckoutCompletePageTest.backHomeButtonTest()'><b>backHomeButtonTest</b><br>Test class: com.swag.qa.test.CheckoutCompletePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf</td></tr>
+<tr>
+<td title='com.swag.qa.test.CheckoutOverviewPageTest.cancelButtonTest()'><b>cancelButtonTest</b><br>Test class: com.swag.qa.test.CheckoutOverviewPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1</td></tr>
+<tr>
+<td title='com.swag.qa.test.ProductPageTest.selectDropDownTest()'><b>selectDropDownTest</b><br>Test class: com.swag.qa.test.ProductPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.ProductPageTest@67c27493</td></tr>
+<tr>
+<td title='com.swag.qa.test.CheckoutPageTest.cancelButtonTest()'><b>cancelButtonTest</b><br>Test class: com.swag.qa.test.CheckoutPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swag.qa.test.CheckoutPageTest@72967906</td></tr>
+</table><p>
+</body>
+</html>

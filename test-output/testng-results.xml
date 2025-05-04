@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-03T19:06:31 IST" name="Swag Labs Web Automation Test Suite" finished-at="2025-05-03T19:08:07 IST" duration-ms="96352">
+    <groups>
+    </groups>
+    <test started-at="2025-05-03T19:06:31 IST" name="Swag Labs Website Test cases" finished-at="2025-05-03T19:08:07 IST" duration-ms="96352">
+      <class name="com.swag.qa.test.CheckoutOverviewPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1]" started-at="2025-05-03T19:07:38 IST" name="setUp" finished-at="2025-05-03T19:07:43 IST" duration-ms="4732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutOverviewTitleTest()[pri:1, instance:com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1]" started-at="2025-05-03T19:07:43 IST" name="checkoutOverviewTitleTest" finished-at="2025-05-03T19:07:43 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutOverviewTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1]" started-at="2025-05-03T19:07:43 IST" name="tearDown" finished-at="2025-05-03T19:07:44 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1]" started-at="2025-05-03T19:07:44 IST" name="setUp" finished-at="2025-05-03T19:07:48 IST" duration-ms="4332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cancelButtonTest()[pri:2, instance:com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1]" started-at="2025-05-03T19:07:48 IST" name="cancelButtonTest" finished-at="2025-05-03T19:07:48 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1]" started-at="2025-05-03T19:07:48 IST" name="tearDown" finished-at="2025-05-03T19:07:48 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1]" started-at="2025-05-03T19:07:48 IST" name="setUp" finished-at="2025-05-03T19:07:53 IST" duration-ms="4249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="finishButtonTest()[pri:3, instance:com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1]" started-at="2025-05-03T19:07:53 IST" name="finishButtonTest" finished-at="2025-05-03T19:07:53 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CheckoutOverviewPageTest@5b8dfcc1]" started-at="2025-05-03T19:07:53 IST" name="tearDown" finished-at="2025-05-03T19:07:53 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swag.qa.test.CheckoutOverviewPageTest -->
+      <class name="com.swag.qa.test.ProductPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:06:48 IST" name="setUp" finished-at="2025-05-03T19:06:53 IST" duration-ms="4389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productPageHeaderTitleTest()[pri:1, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:06:53 IST" name="productPageHeaderTitleTest" finished-at="2025-05-03T19:06:53 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productPageHeaderTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:06:53 IST" name="tearDown" finished-at="2025-05-03T19:06:53 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:06:53 IST" name="setUp" finished-at="2025-05-03T19:06:57 IST" duration-ms="4243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectDropDownTest()[pri:2, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:06:57 IST" name="selectDropDownTest" finished-at="2025-05-03T19:06:57 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDropDownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:06:57 IST" name="tearDown" finished-at="2025-05-03T19:06:58 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:06:58 IST" name="setUp" finished-at="2025-05-03T19:07:02 IST" duration-ms="3938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addToCartButtonTest()[pri:3, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:07:02 IST" name="addToCartButtonTest" finished-at="2025-05-03T19:07:02 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:07:02 IST" name="tearDown" finished-at="2025-05-03T19:07:02 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:07:02 IST" name="setUp" finished-at="2025-05-03T19:07:06 IST" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RemoveButtonTest()[pri:4, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:07:06 IST" name="RemoveButtonTest" finished-at="2025-05-03T19:07:06 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:07:06 IST" name="tearDown" finished-at="2025-05-03T19:07:06 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:07:06 IST" name="setUp" finished-at="2025-05-03T19:07:10 IST" duration-ms="3778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ShoppingCartLinkTest()[pri:5, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:07:10 IST" name="ShoppingCartLinkTest" finished-at="2025-05-03T19:07:10 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCartLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.ProductPageTest@67c27493]" started-at="2025-05-03T19:07:10 IST" name="tearDown" finished-at="2025-05-03T19:07:11 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swag.qa.test.ProductPageTest -->
+      <class name="com.swag.qa.test.CheckoutCompletePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf]" started-at="2025-05-03T19:07:53 IST" name="setUp" finished-at="2025-05-03T19:07:58 IST" duration-ms="4434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="backHomeButtonTest()[pri:0, instance:com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf]" started-at="2025-05-03T19:07:58 IST" name="backHomeButtonTest" finished-at="2025-05-03T19:07:58 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backHomeButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf]" started-at="2025-05-03T19:07:58 IST" name="tearDown" finished-at="2025-05-03T19:07:58 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf]" started-at="2025-05-03T19:07:58 IST" name="setUp" finished-at="2025-05-03T19:08:02 IST" duration-ms="4396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutCompletePageTest()[pri:0, instance:com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf]" started-at="2025-05-03T19:08:02 IST" name="checkoutCompletePageTest" finished-at="2025-05-03T19:08:02 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutCompletePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf]" started-at="2025-05-03T19:08:02 IST" name="tearDown" finished-at="2025-05-03T19:08:03 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf]" started-at="2025-05-03T19:08:03 IST" name="setUp" finished-at="2025-05-03T19:08:07 IST" duration-ms="4303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="thankyouMessageTest()[pri:0, instance:com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf]" started-at="2025-05-03T19:08:07 IST" name="thankyouMessageTest" finished-at="2025-05-03T19:08:07 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thankyouMessageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CheckoutCompletePageTest@2f9f7dcf]" started-at="2025-05-03T19:08:07 IST" name="tearDown" finished-at="2025-05-03T19:08:07 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swag.qa.test.CheckoutCompletePageTest -->
+      <class name="com.swag.qa.test.CartPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CartPageTest@1a482e36]" started-at="2025-05-03T19:07:11 IST" name="setUp" finished-at="2025-05-03T19:07:14 IST" duration-ms="3699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartPageTitleTest()[pri:1, instance:com.swag.qa.test.CartPageTest@1a482e36]" started-at="2025-05-03T19:07:14 IST" name="cartPageTitleTest" finished-at="2025-05-03T19:07:14 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CartPageTest@1a482e36]" started-at="2025-05-03T19:07:14 IST" name="tearDown" finished-at="2025-05-03T19:07:15 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CartPageTest@1a482e36]" started-at="2025-05-03T19:07:15 IST" name="setUp" finished-at="2025-05-03T19:07:18 IST" duration-ms="3701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="continueShoppingButtonTest()[pri:2, instance:com.swag.qa.test.CartPageTest@1a482e36]" started-at="2025-05-03T19:07:18 IST" name="continueShoppingButtonTest" finished-at="2025-05-03T19:07:19 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShoppingButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CartPageTest@1a482e36]" started-at="2025-05-03T19:07:19 IST" name="tearDown" finished-at="2025-05-03T19:07:19 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CartPageTest@1a482e36]" started-at="2025-05-03T19:07:19 IST" name="setUp" finished-at="2025-05-03T19:07:23 IST" duration-ms="3866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutButtonTest()[pri:3, instance:com.swag.qa.test.CartPageTest@1a482e36]" started-at="2025-05-03T19:07:23 IST" name="checkoutButtonTest" finished-at="2025-05-03T19:07:23 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CartPageTest@1a482e36]" started-at="2025-05-03T19:07:23 IST" name="tearDown" finished-at="2025-05-03T19:07:23 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swag.qa.test.CartPageTest -->
+      <class name="com.swag.qa.test.CheckoutPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CheckoutPageTest@72967906]" started-at="2025-05-03T19:07:23 IST" name="setUp" finished-at="2025-05-03T19:07:27 IST" duration-ms="4023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutPageTitleTest()[pri:1, instance:com.swag.qa.test.CheckoutPageTest@72967906]" started-at="2025-05-03T19:07:27 IST" name="checkoutPageTitleTest" finished-at="2025-05-03T19:07:27 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CheckoutPageTest@72967906]" started-at="2025-05-03T19:07:27 IST" name="tearDown" finished-at="2025-05-03T19:07:28 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CheckoutPageTest@72967906]" started-at="2025-05-03T19:07:29 IST" name="setUp" finished-at="2025-05-03T19:07:33 IST" duration-ms="4095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="inputInformationFieldsTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.swag.qa.test.CheckoutPageTest@72967906]" started-at="2025-05-03T19:07:33 IST" name="inputInformationFieldsTest" data-provider="getData" finished-at="2025-05-03T19:07:34 IST" duration-ms="573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[546797.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputInformationFieldsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CheckoutPageTest@72967906]" started-at="2025-05-03T19:07:34 IST" name="tearDown" finished-at="2025-05-03T19:07:34 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.CheckoutPageTest@72967906]" started-at="2025-05-03T19:07:34 IST" name="setUp" finished-at="2025-05-03T19:07:38 IST" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cancelButtonTest()[pri:3, instance:com.swag.qa.test.CheckoutPageTest@72967906]" started-at="2025-05-03T19:07:38 IST" name="cancelButtonTest" finished-at="2025-05-03T19:07:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.CheckoutPageTest@72967906]" started-at="2025-05-03T19:07:38 IST" name="tearDown" finished-at="2025-05-03T19:07:38 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swag.qa.test.CheckoutPageTest -->
+      <class name="com.swag.qa.test.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.LoginPageTest@2a798d51]" started-at="2025-05-03T19:06:31 IST" name="setUp" finished-at="2025-05-03T19:06:42 IST" duration-ms="10686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.swag.qa.test.LoginPageTest@2a798d51]" started-at="2025-05-03T19:06:42 IST" name="loginPageTitleTest" finished-at="2025-05-03T19:06:42 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.LoginPageTest@2a798d51]" started-at="2025-05-03T19:06:42 IST" name="tearDown" finished-at="2025-05-03T19:06:43 IST" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.swag.qa.test.LoginPageTest@2a798d51]" started-at="2025-05-03T19:06:43 IST" name="setUp" finished-at="2025-05-03T19:06:46 IST" duration-ms="3233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:2, instance:com.swag.qa.test.LoginPageTest@2a798d51]" started-at="2025-05-03T19:06:46 IST" name="loginTest" finished-at="2025-05-03T19:06:48 IST" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swag.qa.test.LoginPageTest@2a798d51]" started-at="2025-05-03T19:06:48 IST" name="tearDown" finished-at="2025-05-03T19:06:48 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swag.qa.test.LoginPageTest -->
+    </test> <!-- Swag Labs Website Test cases -->
+  </suite> <!-- Swag Labs Web Automation Test Suite -->
+</testng-results>

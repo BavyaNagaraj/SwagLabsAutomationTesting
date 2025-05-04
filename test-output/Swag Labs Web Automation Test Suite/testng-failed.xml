@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Swag Labs Web Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Swag Labs Website Test cases(failed)">
+    <classes>
+      <class name="com.swag.qa.test.CheckoutOverviewPageTest">
+        <methods>
+          <include name="checkoutOverviewTitleTest"/>
+          <include name="setUp"/>
+          <include name="cancelButtonTest"/>
+          <include name="finishButtonTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swag.qa.test.CheckoutOverviewPageTest -->
+      <class name="com.swag.qa.test.CartPageTest">
+        <methods>
+          <include name="checkoutButtonTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.swag.qa.test.CartPageTest -->
+    </classes>
+  </test> <!-- Swag Labs Website Test cases(failed) -->
+</suite> <!-- Failed suite [Swag Labs Web Automation Test Suite] -->
