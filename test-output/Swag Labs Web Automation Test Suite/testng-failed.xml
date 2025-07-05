@@ -3,6 +3,15 @@
 <suite name="Failed suite [Swag Labs Web Automation Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Swag Labs Website Test cases(failed)">
     <classes>
+      <class name="com.swag.qa.test.CheckoutCompletePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkoutCompletePageTest"/>
+          <include name="thankyouMessageTest"/>
+          <include name="tearDown"/>
+          <include name="backHomeButtonTest"/>
+        </methods>
+      </class> <!-- com.swag.qa.test.CheckoutCompletePageTest -->
       <class name="com.swag.qa.test.CheckoutOverviewPageTest">
         <methods>
           <include name="checkoutOverviewTitleTest"/>
@@ -12,13 +21,22 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.swag.qa.test.CheckoutOverviewPageTest -->
-      <class name="com.swag.qa.test.CartPageTest">
+      <class name="com.swag.qa.test.ProductPageTest">
         <methods>
-          <include name="checkoutButtonTest"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="RemoveButtonTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.swag.qa.test.CartPageTest -->
+      </class> <!-- com.swag.qa.test.ProductPageTest -->
+      <class name="com.swag.qa.test.CheckoutPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cancelButtonTest"/>
+          <include name="inputInformationFieldsTest"/>
+          <include name="tearDown"/>
+          <include name="checkoutPageTitleTest"/>
+        </methods>
+      </class> <!-- com.swag.qa.test.CheckoutPageTest -->
     </classes>
   </test> <!-- Swag Labs Website Test cases(failed) -->
 </suite> <!-- Failed suite [Swag Labs Web Automation Test Suite] -->

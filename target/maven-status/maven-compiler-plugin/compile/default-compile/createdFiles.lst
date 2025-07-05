@@ -1,0 +1,9 @@
+com\swag\qa\utility\UtilClass.class
+com\swag\qa\pages\CheckoutCompletePage.class
+com\swag\qa\base\BaseClass.class
+com\swag\qa\pages\CheckoutPage.class
+com\swag\qa\pages\CheckoutOverviewPage.class
+com\swag\qa\testdata\TestDataClass.class
+com\swag\qa\pages\LoginPage.class
+com\swag\qa\pages\CartPage.class
+com\swag\qa\pages\ProductPage.class
